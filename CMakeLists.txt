@@ -17,6 +17,7 @@ find_package(glfw3 3.3 REQUIRED)
 pkg_check_modules(FFMPEG REQUIRED IMPORTED_TARGET
     libavcodec
     libavformat
+    libavfilter
     libavutil
     libswscale
 )
